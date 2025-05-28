@@ -11,7 +11,9 @@
     <header>
         <div class="container">
             <nav>
-                <div class="logo">Meu<span>Remedio</span></div>
+                <div class="logo">
+                    <img src="images/logo.png" alt="MeuRemedio Logo" class="logo-img">
+                </div>
                 <ul>
                     <li><a href="#hero">Início</a></li>
                     <li><a href="#sobre-nos">Sobre Nós</a></li>
@@ -29,10 +31,10 @@
                 <div class="hero-content">
                     <h1>Seu medicamento em minutos, com o melhor preço!</h1>
                     <p>Compare preços entre as farmácias da sua região e receba seu remédio onde estiver. Saúde e economia ao seu alcance.</p>
-                    <a href="pagina_pesquisa.html" class="btn-pesquisar">Pesquisar Remédio Agora</a>
+                    <a href="code.html" class="btn-pesquisar">Pesquisar Medicamentos</a>
                 </div>
                 <div class="hero-image">
-                    <img src="https://via.placeholder.com/600x400/99e6ff/000000?text=Entrega+de+Remédios" alt="Ilustração de entrega de remédios">
+                    <img src="images/hero-image.png" alt="Farmacêutico entregando medicamento">
                 </div>
             </div>
         </section>
@@ -42,12 +44,11 @@
                 <h2>Sobre Nós</h2>
                 <div class="sobre-nos-content">
                     <div class="sobre-nos-text">
-                        <p>O **MeuRemedio** nasceu da necessidade de tornar o acesso a medicamentos mais fácil, rápido e acessível para todos. Sabemos como é importante ter o remédio certo, na hora certa, e por um preço justo.</p>
-                        <p>Nossa plataforma conecta você às melhores farmácias da sua região, permitindo que você compare preços, verifique a disponibilidade e receba seu pedido no conforto da sua casa ou onde preferir. Com o **MeuRemedio**, a saúde está literalmente nas suas mãos, com transparência e economia.</p>
-                        <p>Acreditamos no poder da escolha e na conveniência. Por isso, somos uma ponte entre você e a farmácia ideal, garantindo que você encontre sempre o melhor para sua saúde e seu bolso.</p>
+                        <p>No MeuRemedio, acreditamos que encontrar o medicamento certo pelo melhor preço deve ser fácil e rápido. Nossa plataforma conecta você às farmácias mais próximas, permitindo comparar preços e garantir que você faça a melhor escolha para sua saúde e seu bolso.</p>
+                        <p>Nossa missão é simplificar o acesso a medicamentos, promovendo economia e conveniência para todos. Contamos com uma rede de farmácias parceiras comprometidas em oferecer o melhor serviço.</p>
                     </div>
                     <div class="sobre-nos-image">
-                        <img src="https://via.placeholder.com/400x300/a3ddcb/000000?text=Sobre+Nós" alt="Equipe MeuRemedio">
+                        <img src="images/sobre-nos-image.png" alt="Pessoas cuidando da saúde">
                     </div>
                 </div>
             </div>
@@ -58,22 +59,22 @@
                 <h2>Como Funciona?</h2>
                 <div class="passos">
                     <div class="passo">
-                        <img src="https://via.placeholder.com/80x80/ffe0b2/000000?text=1" alt="Passo 1">
+                        <img src="images/passo-pesquisar.png" alt="Ícone de Pesquisa">
                         <h3>1. Pesquise</h3>
-                        <p>Digite o nome do remédio que você precisa.</p>
+                        <p>Digite o nome do medicamento que você precisa.</p>
                     </div>
                     <div class="passo">
-                        <img src="https://via.placeholder.com/80x80/c8e6c9/000000?text=2" alt="Passo 2">
+                        <img src="images/passo-comparar.png" alt="Ícone de Preço">
                         <h3>2. Compare</h3>
                         <p>Visualize e compare os preços das farmácias próximas.</p>
                     </div>
                     <div class="passo">
-                        <img src="https://via.placeholder.com/80x80/bbdefb/000000?text=3" alt="Passo 3">
+                        <img src="images/passo-pedir.avif" alt="Ícone de Carrinho">
                         <h3>3. Peça</h3>
                         <p>Escolha a melhor opção e faça seu pedido de forma rápida.</p>
                     </div>
                     <div class="passo">
-                        <img src="https://via.placeholder.com/80x80/ffcdd2/000000?text=4" alt="Passo 4">
+                        <img src="images/passo-receber.avif" alt="Ícone de Entrega">
                         <h3>4. Receba</h3>
                         <p>Nosso entregador leva o remédio até você em minutos.</p>
                     </div>
@@ -88,11 +89,86 @@
                 <a href="#contato" class="btn-parceiro">Saiba Mais</a>
             </div>
         </section>
+
+        <section id="parceiros" class="parceiros-section">
+            <div class="container">
+                <h2>Nossos Parceiros</h2>
+                <div class="parceiros-grid">
+                    <div class="parceiro-card">
+                        <img src="images/logo-exemplo.gif" alt="Farmácia A Logo">
+                        <h3>Farmácia A</h3>
+                        <p>Sempre com os melhores preços!</p>
+                    </div>
+                    <div class="parceiro-card">
+                        <img src="images/logo-exemplo.gif" alt="Farmácia B Logo">
+                        <h3>Farmácia B</h3>
+                        <p>Qualidade e variedade para você.</p>
+                    </div>
+                    <div class="parceiro-card">
+                        <img src="images/logo-exemplo.gif" alt="Farmácia C Logo">
+                        <h3>Farmácia C</h3>
+                        <p>Seu bem-estar em primeiro lugar.</p>
+                    </div>
+                </div>
+                <p class="parceiros-info">Interessado em se tornar um parceiro? <a href="#contato">Entre em contato!</a></p>
+            </div>
+        </section>
+
+        <section id="contato" class="contato-section">
+            <div class="container">
+                <h2>Fale Conosco</h2>
+                <p>Tem dúvidas, sugestões ou quer ser nosso parceiro? Envie-nos uma mensagem!</p>
+                <form class="contato-form">
+                    <div class="form-group">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Enviar Mensagem</button>
+                </form>
+            </div>
+        </section>
     </main>
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 **MeuRemedio**. Todos os direitos reservados.</p>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo.png" alt="MeuRemedio Logo Footer" class="logo-img">
+                </div>
+                <div class="footer-links">
+                    <h3>Navegação</h3>
+                    <ul>
+                        <li><a href="#hero">Início</a></li>
+                        <li><a href="#sobre-nos">Sobre Nós</a></li>
+                        <li><a href="#como-funciona">Como Funciona</a></li>
+                        <li><a href="#parceiros">Parceiros</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Siga-nos</h3>
+                    <a href="#"><img src="images/icone-facebook.webp" alt="Facebook"></a>
+                    <a href="#"><img src="images/icone-instagram.png" alt="Instagram"></a>
+                    <a href="#"><img src="images/icone-twitter.png" alt="Twitter"></a>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contato</h3>
+                    <p>Email: contato@meuremedio.com</p>
+                    <p>Telefone: (00) 1234-5678</p>
+                    <p>Endereço: Rua da Saúde, 123 - Cidade, Estado</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 MeuRemedio. Todos os direitos reservados.</p>
+            </div>
         </div>
     </footer>
 </body>
