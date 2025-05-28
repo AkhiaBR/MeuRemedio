@@ -5,3 +5,7 @@ Inspirado no modelo do iFood, mas voltado à saúde, o sistema funciona por meio
 
 💊 Compare. Escolha. Receba.
 🚀 Saúde entregue com tecnologia.
+
+---
+
+Site: https://meu-remedio-phi.vercel.app/
